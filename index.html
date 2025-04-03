@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="bolao">
+    <img id="alucard" src="https://www.fightersgeneration.com/nf7/char/alucard-castlevania-symphony-of-the-night-run-animation.gif">
+</div>
+
+<div class="container">
+        <h1>Calculadora de IMC</h1>
+        <h3>(mal assombrada)</h3>
+    <div class="input-group">
+            <label for="peso">Peso (kg):</label>
+            <input type="number" id="peso" step="0.1" placeholder="Ex: 70">
+        </div>
+        <div class="input-group">
+            <label for="altura">Altura (m):</label>
+            <input type="number" id="altura" step="0.01" placeholder="Ex: 1.70">
+        </div>
+        <button onclick="calcularIMC()">Calcular</button>
+        <div id="resultado" class="resultado"></div>
+    </div>
+
+    <div class="bolao2">
+        <img id="alucard2" src="https://i.imgur.com/qvI9zKe.gif">
+    </div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
